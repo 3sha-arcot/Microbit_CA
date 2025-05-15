@@ -48,9 +48,9 @@ Hardware Components
 
         Arduino: USB via laptop
 
-
 Software Components
-1. Tilt-Control Code (micro:bit)
+
+1 Tilt-Control Code (micro:bit)
 
     Uses accelerometer to determine X/Y tilt
 
@@ -58,11 +58,11 @@ Software Components
 
     Sends speeds over radio every 10ms
 
-2. Relay micro:bit Code
+2 Relay micro:bit Code
 
     Receives radio packets and forwards them via UART at 9600 baud
 
-3. Arduino Code
+3 Arduino Code
 
     Parses UART data
 
@@ -71,6 +71,7 @@ Software Components
     Overrides user input if obstacles are too close
 
     Drives motors accordingly
+
 
 Key Features
 
